@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1500px;
+    height: 900px;
+    border:  10px solid gray;
+   margin: 0 auto;
+   padding: 30px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    animation: box 5s infinite;
+    position: relative;
+
+}
+
+@keyframes box {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    10% {
+        top: 0px;
+        left: 400px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    20% {
+        top: 400px;
+        left: 400px;
+        border-radius: 15px;
+        background-color: red;
+    }
+
+    30% {
+        top: 400px;
+        left: 1200px;
+        border-radius: 15px;
+        background-color: dodgerblue;
+    }
+
+    40% {
+        top: 600px;
+        left: 1200px;
+        border-radius: 18px;
+        background-color: yellow;
+    }
+
+    50% {
+        top: 600px;
+        left: 800px;
+        border-radius: 22px;
+        background-color: chartreuse;
+    }
+
+    60% {
+        top: 500px;
+        left: 800px;
+        border-radius: 25px;
+        background-color: chocolate;
+    }
+
+    70% {
+        top: 500px;
+        left: 400px;
+        border-radius: 20px;
+        background-color: palevioletred;
+    }
+
+    80% {
+        top: 340px;
+        left: 200px;
+        border-radius: 30px;
+        background-color: aqua;
+    }
+
+    90% {
+        top: 400px;
+        left: 0px;
+        border-radius: 20px;
+        background-color: blueviolet;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+
+    }
+
+}
